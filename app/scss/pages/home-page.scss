@@ -1,4 +1,9 @@
 // Main configuration
-@import "./../index.scss";
+@import './../index';
+@import './../components/demo-component';
+$black: #000;
 
-@import "./../components/_demo-component";
+body {
+  color: $black;
+  font-family: 'Festive', 'Open Sans', sans-serif;
+}
